@@ -4,10 +4,10 @@ let prevtBtn = document.querySelectorAll('.prev');
 
 sliderContainer.forEach((slider,i) =>{
     nextBtn[i].addEventListener('click',()=>{
-        slider.scrollLeft += 310 
+        slider.scrollLeft += 620 
     })
     prevtBtn[i].addEventListener('click',()=>{
-        slider.scrollLeft -= 310
+        slider.scrollLeft -= 620
     })
 })
 

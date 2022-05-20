@@ -6,6 +6,18 @@ header{
         align-items: center;
         background: #000;
         gap: 20px;
+        .only991{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 15px 10px;
+            text-transform: capitalize;
+            i{
+                margin-right: 9px;
+                font-size: 18px;
+            }
+        }
         .first-link{
             display: flex;
             justify-content: center;
@@ -97,4 +109,14 @@ header{
             }
         }
     }
+}
+
+@media (max-width:991px) {
+    .size991{
+        display: none;
+    }
+    .only991{
+        display: flex;
+    }
+    
 }
