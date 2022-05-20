@@ -522,8 +522,8 @@ header .nav-bottom .social-links a:nth-child(2) {
   }
 }
 
-.testimonial {
-  padding: 80px 0;
+.testimonial .myContainer {
+  padding: 40px 5vw;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(https://media.istockphoto.com/photos/mountain-biking-british-columbia-picture-id475680439?b=1&k=20&m=475680439&s=170667a&w=0&h=9TDSd8YHMtaCf9qFXvwyk0rbKKhuSlZHsgY_jJuLlfs=) no-repeat center center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.istockphoto.com/photos/mountain-biking-british-columbia-picture-id475680439?b=1&k=20&m=475680439&s=170667a&w=0&h=9TDSd8YHMtaCf9qFXvwyk0rbKKhuSlZHsgY_jJuLlfs=) no-repeat center center/cover;
 }
@@ -534,10 +534,14 @@ header .nav-bottom .social-links a:nth-child(2) {
 }
 
 .testimonial .myContainer .sliderContainer .cardSlider {
-  width: 100%;
+  width: 450px;
   border: 0;
   padding: 30px;
   text-align: center;
+}
+
+.testimonial .myContainer .sliderContainer .cardSlider:hover {
+  background: rgba(250, 250, 250, 0.04);
 }
 
 .testimonial .myContainer .sliderContainer .cardSlider img {
@@ -550,6 +554,14 @@ header .nav-bottom .social-links a:nth-child(2) {
 .testimonial .myContainer .sliderContainer .cardSlider .dtails p {
   color: #ffffffe2;
   text-align: center;
+}
+
+.testimonial .myContainer .sliderContainer .cardSlider .dtails h4 {
+  font-weight: 800;
+  line-height: 1.6;
+  font-size: 16px;
+  color: rgba(206, 187, 15, 0.7);
+  font-family: satisfy;
 }
 
 * {
