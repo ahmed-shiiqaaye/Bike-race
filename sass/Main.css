@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm&family=Great+Vibes&family=Josefin+Sans&family=League+Gothic&family=Lobster&family=Nunito&family=Permanent+Marker&family=Poppins:wght@400;500&family=Roboto&family=Satisfy&display=swap");
+header .nav-top {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+  gap: 20px;
+}
+
+header .nav-top .first-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: white;
+  padding: 20px 10px;
+}
+
+header .nav-top .first-link i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+header ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 10px;
+}
+
+header ul li a:hover {
+  color: #64c9f1;
+}
+
+header ul li a i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+header .input-field {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  padding: 0 20px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+header .input-field input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 0;
+  padding-left: 15px;
+}
+
+header .input-field .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e2882e;
+  color: black;
+}
+
+header .nav-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  background: #64c9f1;
+  max-width: 100%;
+}
+
+header .nav-bottom .menu-icon {
+  font-size: 24px;
+  color: black;
+}
+
+header .nav-bottom img {
+  height: 70px;
+  width: 160px;
+}
+
+header .nav-bottom .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 30px;
+}
+
+header .nav-bottom .social-links a {
+  font-size: 22px;
+  padding: 6px 10px;
+  color: #000;
+}
+
+header .nav-bottom .social-links a:nth-child(2) {
+  margin-right: -10px;
+}
+
+#carouselExampleDark {
+  height: 75vh;
+}
+
+#carouselExampleDark .carousel-indicators button {
+  z-index: 2999;
+}
+
+#carouselExampleDark .carousel-inner {
+  height: 100%;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item {
+  position: relative;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  width: 100%;
+  color: white;
+  font-family: monospace;
+  z-index: 2;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item .carousel-caption h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title {
+  padding: 20px 0;
+  padding-left: 5vw;
+}
+
+.title h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.sliderContainerSection {
+  position: relative;
+  padding: 10px 0;
+}
+
+.sliderContainerSection .btnSlider {
+  position: absolute;
+  top: 0;
+  width: 5vw;
+  z-index: 8;
+  background: white;
+  border: 0;
+  height: 100%;
+  font-size: 25px;
+}
+
+.sliderContainerSection .next {
+  right: 0;
+}
+
+.sliderContainerSection .sliderContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5vw;
+  scroll-behavior: smooth;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 280px;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sliderContainerSection .sliderContainer .cardSlider i {
+  pointer-events: none;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .imageContainer {
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .imageContainer .PriceTag {
+  position: absolute;
+  right: 0;
+  z-index: 7;
+  top: 0;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .imageContainer .PriceTag div {
+  padding: 2px 4px;
+  color: white;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails {
+  text-align: center;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails p:first-child {
+  color: blue;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .priceFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-family: nunito;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .priceFlex .newPrice {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .priceFlex .exPrice {
+  text-decoration: line-through;
+  opacity: .6;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .cardSliderBtn {
+  width: 100%;
+  height: 40px;
+  padding: 6px 10px;
+  font-family: poppins;
+  display: block;
+  font-size: 14px;
+  background: rgba(30, 143, 255, 0.475);
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .bottomDiv {
+  margin-top: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 0 5px;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .bottomDiv i {
+  opacity: .6;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .bottomDiv i:hover {
+  color: red;
+}
+
+.sliderContainerSection .sliderContainer .cardSlider .moreDetails .bottomDiv p {
+  cursor: pointer;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section2 .title {
+  padding-right: 10vw;
+}
+
+.section2 .title .btn {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 0;
+  color: white;
+  padding: 8px 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section .myContainer .title {
+  margin-bottom: 20px;
+}
+
+.section .myContainer .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.section .myContainer .grid .div1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.section .myContainer .grid .div1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .myContainer .grid .div1 .text {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  background: #1eff4f;
+  padding: 4px 20px;
+}
+
+.section .myContainer .grid .div2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.section .myContainer .grid .div2 div {
+  position: relative;
+}
+
+.section .myContainer .grid .div2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .myContainer .grid .div2 .text {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  background: #1eff4f;
+  padding: 4px 20px;
+  z-index: 3;
+}
+
+.testimonial {
+  padding: 80px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(https://media.istockphoto.com/photos/mountain-biking-british-columbia-picture-id475680439?b=1&k=20&m=475680439&s=170667a&w=0&h=9TDSd8YHMtaCf9qFXvwyk0rbKKhuSlZHsgY_jJuLlfs=) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.istockphoto.com/photos/mountain-biking-british-columbia-picture-id475680439?b=1&k=20&m=475680439&s=170667a&w=0&h=9TDSd8YHMtaCf9qFXvwyk0rbKKhuSlZHsgY_jJuLlfs=) no-repeat center center/cover;
+}
+
+.testimonial .myContainer .btnSlider {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.testimonial .myContainer .sliderContainer .cardSlider {
+  width: 50%;
+  border: 0;
+  padding: 30px 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.testimonial .myContainer .sliderContainer .cardSlider img {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+.testimonial .myContainer .sliderContainer .cardSlider .dtails p {
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.889);
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.myContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+input {
+  outline: none;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+button {
+  padding: 12px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Main.css.map */
