@@ -444,15 +444,19 @@ header .nav-bottom .social-links a:nth-child(2) {
   cursor: pointer;
 }
 
-.section {
-  margin-bottom: 40px;
+.sliderContainerSection .sliderContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .section {
   margin-bottom: 40px;
 }
 
-.section .myContainer .grid {
+.labSection {
+  margin-bottom: 40px;
+}
+
+.labSection .myContainer .grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -460,19 +464,20 @@ header .nav-bottom .social-links a:nth-child(2) {
   gap: 20px;
 }
 
-.section .myContainer .grid .div1 {
+.labSection .myContainer .grid .div1 {
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
 
-.section .myContainer .grid .div1 img {
+.labSection .myContainer .grid .div1 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.section .myContainer .grid .div1 .text {
+.labSection .myContainer .grid .div1 .text {
   position: absolute;
   bottom: 20px;
   right: 0;
@@ -480,7 +485,7 @@ header .nav-bottom .social-links a:nth-child(2) {
   padding: 4px 20px;
 }
 
-.section .myContainer .grid .div2 {
+.labSection .myContainer .grid .div2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -490,24 +495,31 @@ header .nav-bottom .social-links a:nth-child(2) {
   position: relative;
 }
 
-.section .myContainer .grid .div2 div {
+.labSection .myContainer .grid .div2 div {
   position: relative;
 }
 
-.section .myContainer .grid .div2 img {
+.labSection .myContainer .grid .div2 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.section .myContainer .grid .div2 .text {
+.labSection .myContainer .grid .div2 .text {
   position: absolute;
   bottom: 20px;
   right: 0;
   background: #1eff4f;
   padding: 4px 20px;
   z-index: 3;
+}
+
+@media (max-width: 991px) {
+  .labSection .myContainer .grid .div2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .testimonial {
@@ -522,11 +534,10 @@ header .nav-bottom .social-links a:nth-child(2) {
 }
 
 .testimonial .myContainer .sliderContainer .cardSlider {
-  width: 50%;
+  width: 100%;
   border: 0;
-  padding: 30px 0;
+  padding: 30px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .testimonial .myContainer .sliderContainer .cardSlider img {
@@ -537,7 +548,8 @@ header .nav-bottom .social-links a:nth-child(2) {
 }
 
 .testimonial .myContainer .sliderContainer .cardSlider .dtails p {
-  color: #000;
+  color: #ffffffe2;
+  text-align: center;
 }
 
 * {

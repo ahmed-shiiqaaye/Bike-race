@@ -207,6 +207,9 @@
             }
         }
     }
+    .sliderContainer::-webkit-scrollbar{
+        display: none;
+    }
 }
 
 .section{
@@ -214,7 +217,7 @@
 }
 
 
-.section{
+.labSection{
     margin-bottom: 40px;
     .myContainer{
         .grid{
@@ -222,6 +225,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 20px;
             .div1{
+                width: 100%;    
                 position: relative;
                 overflow: hidden;
                 img{
@@ -265,6 +269,13 @@
     }
 }
 
+@media (max-width:991px) {
+    .labSection .myContainer .grid .div2{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
 .testimonial{
     padding: 80px 0;
     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),
@@ -277,22 +288,20 @@
         }
         .sliderContainer{
             .cardSlider{
-                width: 50%;
+                width: 100%;
                 border: 0;
-                padding: 30px 0;
+                padding: 30px;
                 text-align: center;
-                background: rgba(2555,255,255,.2);
                 img{
                     width: 110px;
                     height: 110px;
-                    // margin-left: 50%;
-                    // transform: translateX(-50%);
                     border-radius: 100%;
                     margin-bottom: 30px;
                 }
                 .dtails{
                     p{
-                        color: #000;
+                        color:#ffffffe2;
+                        text-align: center;
                     }
                 }
             }
